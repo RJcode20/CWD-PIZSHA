@@ -1,0 +1,151 @@
+h1, h2, h3, h4, h5, h6 { font-weight: 400;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+/* logo style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background:#ffa000 ;
+}
+.top-bar span{
+    color: rgb(255, 255, 255);
+
+}
+
+.top-bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.top-bar li{
+    margin: 0px 5px;
+    width: 40px;
+    
+}
+
+.top-bar a{
+    color: rgb(255, 255, 255);
+}
+
+.top-bar a:hover{
+    color: #222;
+
+}
+
+nav{
+    background: #222;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    color: fff;
+}
+
+nav a:hover{
+    color: #ef4b3f;
+}
+
+.logo{
+    flex: 1;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo a:hover{
+    color: #fff;
+}
+
+
+
+.logo img{
+    width: 70px;
+    margin-right: 10px;
+}
+
+.menuu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.menu li{
+    padding: 15px 10px;
+    font-size: 16px
+
+}
+
+.toggle{
+    font-size: 30px;
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    nav{ 
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+    } 
+}
+
+.menuu{
+    margin-top: 15px;
+    display: none;
+}
+
+.menuu.active, .toggle{
+    display: block;
+}
+.toggle{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.margin{
+    margin: 30px;
+}
+
+.pizza{
+    max-width: 100px;
+    max-height: 100px;
+    
+}
+
+.typo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: #f4511e;
+}
+
+.typi{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+
+}
